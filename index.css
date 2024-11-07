@@ -1,0 +1,68 @@
+:root {
+    --header: #383e4c;
+    --header2: #50545c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+.hero{
+    background-image: url(Layout01Assets/img11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 35em;
+    width: 100%;
+}
+.nav {
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+
+}
+
+ul, li{
+    display: flex;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border: white;
+    align-content: center;
+    justify-content: space-around;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0%;
+}
+
+nav>a {
+    border: white;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    margin: 0 1em;
+    transition: all ease 500ms;
+}
+
+nav>a:hover {
+    background-color: var(--header2);
+    color: #D7D9D7;
+
+}
