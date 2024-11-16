@@ -62,6 +62,7 @@ header {
     z-index: 100;
     margin: 0%;
 }
+
 /*
 nav>a {
     border: white;
@@ -120,7 +121,7 @@ li a:hover {
     font-optical-sizing: auto;
     font-style: normal;
     text-shadow: 4px 3px 0px #000000;
-    
+
 }
 
 .hero3 {
@@ -181,6 +182,11 @@ h3 {
 .card h3,
 .card p {
     padding: 0 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: grey;
 }
 
 p {
@@ -421,17 +427,20 @@ section {
     font-size: 1rem;
 }
 
-.tcr, .tcl{
+.tcr,
+.tcl {
     color: #585858;
     text-align: center;
     font-weight: 700;
     font-size: 26px;
 }
-section{
+
+section {
     margin: 0;
     width: 100%;
 }
-.services{
+
+.services {
     text-align: center;
     background-image: url(img/img13.jpg);
     background-repeat: no-repeat;
@@ -446,22 +455,24 @@ section{
     align-items: center;
 }
 
-.servicesp{
+.servicesp {
     color: white;
     margin: 0;
 }
 
-.servicesh3{
-   text-shadow:  4px 3px 0px gray;
-   font-weight: 400;
-   margin: 0;
+.servicesh3 {
+    text-shadow: 4px 3px 0px gray;
+    font-weight: 400;
+    margin: 0;
 }
+
 /* Quad Columns */
 .quarters article {
     width: 23%;
 }
 
-.bc2, .bc4{
+.bc2,
+.bc4 {
     padding: 1em;
     border-radius: 1em;
     background-color: white;
@@ -473,7 +484,7 @@ section{
     font-size: 1rem;
 }
 
-.img4{
+.img4 {
     width: 100%;
 }
 
@@ -495,12 +506,12 @@ section{
 
 .row4 {
     max-width: 1280px;
-    margin: 35rem auto;
+    margin: 37rem auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2em;
+    margin-top: 7em;
     height: 0em;
 }
 
@@ -510,7 +521,7 @@ section{
     border: none;
 }
 
-.img2 {
+.img {
     max-width: 100%;
     width: 100%;
     height: 40%;
@@ -593,11 +604,231 @@ section {
 
 /* One Big Column */
 
-.big{
+.big {
     background-color: #f8f4f4;
     width: 50%;
     margin-right: 1em;
     margin-left: 1em;
     max-width: 1280px;
-    padding:2em;
+    padding: 2em;
+
+}
+
+.imgbig {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quarters article {
+    width: 23%;
+}
+
+.oneb {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border-color: #818181;
+    color: #686B73;
+    width: 10em;
+    position: absolute;
+    left: 1%;
+    font-size: 1rem;
+}
+
+.img4 {
+    width: 100%;
+}
+
+.bottom-content>section {
+    width: 30%;
+    margin: 1em;
+}
+
+.short-abtus {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    display: block;
+    unicode-bidi: isolate;
+    height: 57em;
+}
+
+.rowb {
+    max-width: 1280px;
+    margin: 37rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 7em;
+    height: 0em;
+}
+
+.cardb article .img2,
+.cardb .img2 {
+    border-radius: 0rem;
+    border: none;
+}
+
+
+h3 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: grey;
+}
+
+.cardb article h2,
+.cardb article h3,
+.cardb article p,
+.cardb h2,
+.cardb h3,
+.cardb p {
+    padding: 14px 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.bp {
+    font-size: x-large;
+
+}
+
+.cardb article,
+.cardb {
+    background-color: #f8f4f4;
+}
+
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+    position: relative;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.cardb .button,
+.cardb .button {
+    border-radius: 0.5rem;
+}
+
+.ones article {
+    width: 100%;
+}
+
+.article1 {
+    position: relative;
+}
+
+.article2 {
+    position: relative;
+}
+
+.cardb article a,
+.cardb a {
+    border-radius: 1rem 0 1rem;
+}
+
+.cardb article a,
+.cardb a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+/* Contact Forms */
+.contact {
+    color: grey;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #28242c;
+    color: white;
+    padding: 16px;
+    border: white;
+    border-radius: 1em;
+    width: 7em;
+    font-size: larger;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #151317;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding: 20px;
+}
+
+#container {
+    background-image: url(img/img14.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    background-color: rgba(128, 128, 128, 0.411);
+    padding: 3em;
+    color: black;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    text-shadow: 2px 2px 0px gray;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
+
+.finfo{
+    font-style: italic;
+}
+
+.copyright{
+    padding: 4em;
+    border: gray;
+    border: gray;
 }
