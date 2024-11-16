@@ -121,7 +121,8 @@ li a:hover {
     font-optical-sizing: auto;
     font-style: normal;
     text-shadow: 4px 3px 0px #000000;
-
+    display: flex;
+    justify-content: center;
 }
 
 .hero3 {
